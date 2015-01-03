@@ -1,0 +1,98 @@
+@CHARSET "ISO-8859-1";
+
+.part_odd {
+	background: rgb(0, 0, 0); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 1)
+		20%, rgba(32, 34, 35, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%,
+		color-stop(20%, rgba(0, 0, 0, 1)),
+		color-stop(100%, rgba(32, 34, 35, 1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 1)
+		20%, rgba(32, 34, 35, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 1)
+		20%, rgba(32, 34, 35, 1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 1)
+		20%, rgba(32, 34, 35, 1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(0, 0, 0, 1) 20%,
+		rgba(32, 34, 35, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000',
+		endColorstr='#202223', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+.part_odd h1 {
+	color: #FFFFFF;
+}
+
+.part_even {
+	background: rgb(255, 255, 255); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1)
+		20%, rgba(217, 221, 204, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%,
+		color-stop(20%, rgba(255, 255, 255, 1)),
+		color-stop(100%, rgba(217, 221, 204, 1))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1)
+		20%, rgba(217, 221, 204, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1)
+		20%, rgba(217, 221, 204, 1) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 1)
+		20%, rgba(217, 221, 204, 1) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center, rgba(255, 255, 255, 1)
+		20%, rgba(217, 221, 204, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff',
+		endColorstr='#d9ddcc', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+}
+
+.big_icon {
+	width: 256px;
+	margin: 20px;
+}
+
+.big_icon:HOVER{
+	width: 276px;
+	margin: 10px;
+}
+
+h1 {
+	margin-top: 0;
+	padding-top: 20px;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+	font-size: 80px;
+}
+
+h3{
+	font-size: 32px;
+}
+
+h5{
+	font-size: 15px;
+	color: #3c3c3c;
+}
+
+p{
+	font-size: 25px;
+}
+
+li{
+	font-size: 20px;
+	color: #5e615a;
+}
+
+#prototype_list td{
+	padding-bottom: 30px;
+	padding-right: 80px;
+}
+
+.image_centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home_summary{
+	position: absolute;
+	top: 100px;
+	text-align: center;
+}
